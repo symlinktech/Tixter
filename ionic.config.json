@@ -1,0 +1,7 @@
+{
+  "name": "eventbrite",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

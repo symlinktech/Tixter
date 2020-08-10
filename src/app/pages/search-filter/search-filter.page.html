@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>search-filter</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div class="form-content">
+	<div class="form-actions">
+	    <button class="btn btn-primary btn-submit" (click)="eventPageNav()">Find things to do</button>
+	</div>
+</div>
+</ion-content>
+<ion-footer>
+  	<div class="footer-menu">
+	    <div class="item" (click)="footerBtnNavigate('home')">
+	      <div class="item-icon"><i class="fas fa-home-lg-alt"></i></div>
+	    </div>
+	    <div class="item active">
+	      <div class="item-icon"><i class="fad fa-fw fa-search"></i></div>
+	    </div>
+	    <div class="item" (click)="footerBtnNavigate('favourites')">
+	      <div class="item-icon"><i class="fad fa-fw fa-heart"></i></div>
+	    </div>
+	    <div class="item" (click)="footerBtnNavigate('tickets')">
+	      <div class="item-icon"><i class="fad fa-fw fa-receipt"></i></div>
+	    </div>
+	    <div class="item" (click)="footerBtnNavigate('profile')">
+	      <div class="item-icon"><i class="fad fa-fw fa-user"></i></div>
+	    </div>
+  	</div>
+</ion-footer>
